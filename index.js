@@ -8,6 +8,7 @@ const videogameRoute = require("./routes/videogames.route");
 const scoreRoute = require("./routes/score.route");
 
 app.use(express.static("public"));
+app.use(express.json());
 
 const port = process.env.PORT || 3000;
 

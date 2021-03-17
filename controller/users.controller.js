@@ -85,4 +85,12 @@ async function del(req, res, next) {
   }
 }
 
-module.exports = { all, get, add, del };
+async function put(req, res, next) {
+  return res.json({ error: "a implementar" });
+}
+
+async function videogames(req, res, next) {
+  return res.json({ error: "a implementar" });
+}
+
+module.exports = { all, get, add, del, put, videogames };
