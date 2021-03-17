@@ -56,5 +56,29 @@ Definir endpoints
 - `PUT /videogames/id`
 - `DELETE /videogames/id`
 
+### HATEOAS
 
+#### User
+```
+{
+    id: 3,
+    login: "dave"
+    name: "Dave",
+    self: "http://localhost:3000/api/users/3"
+    videogames: "http://localhost:3000/api/users/3/videogames"
+}
+```
+
+
+#### Videogames
+```
+{
+    id: 3,
+    name: "Lorem ipsum dolor sit amet",
+    score: 5,
+    count: 40134592348
+    self: "http://localhost:3000/api/videogames/3"
+    videogames: "http://localhost:3000/api/videogames/3/users"
+}
+```
 
