@@ -4,9 +4,27 @@ Tenemos que pasar [express-rpc-videogames-rating](https://github.com/yurigo/expr
 
 ## Tareas
 
-- [ ] Analizar el sistema
+- [x] Analizar el sistema
 - [ ] Diseñar los [recursos](./REST.md#Identification_of_resources)
 - [ ] Diseñar las [representaciones](./REST.md#Manipulation_of_resources_through_representations)
 - [ ] Diseñar [HATEOAS](./REST.md#Hypermedia_as_the_engine_of_Application_State_(HATEOAS))
 - [ ] Implementar
 
+
+### Analizar el sistema
+```
+tabla users
+id
+name
+login
+password
+
+tabla videogames
+id
+name
+
+tabla scores
+user //id usuario
+videogame //id videogame
+score //puntuacion
+```
