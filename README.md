@@ -37,5 +37,24 @@ Definir endpoints
 - `/videogames`
 - `/scores`
 
+### Diseñar las representaciones
+
+#### Users
+
+- `GET /users`
+- `GET /users/id`
+- `POST /users` 
+- `PUT /users/id`
+- `DELETE /users/id`
+
+
+#### Videogames
+
+- `GET /videogames`
+- `GET /videogames/id`
+- `POST /videogames` 
+- `PUT /videogames/id`
+- `DELETE /videogames/id`
+
 
 
