@@ -28,3 +28,14 @@ user //id usuario
 videogame //id videogame
 score //puntuacion
 ```
+
+### Diseñar los recursos
+
+Definir endpoints
+
+- `/users`
+- `/videogames`
+- `/scores`
+
+
+
