@@ -41,11 +41,13 @@ Definir endpoints
 
 #### Users
 
-- `GET /users`
-- `GET /users/id`
+- `GET /users` //colección de user
+- `GET /users/id`  //user
 - `POST /users` 
 - `PUT /users/id`
 - `DELETE /users/id`
+
+- `GET /users/id/videogames` //colección de videogames por user.
 
 
 #### Videogames
@@ -55,6 +57,9 @@ Definir endpoints
 - `POST /videogames` 
 - `PUT /videogames/id`
 - `DELETE /videogames/id`
+
+- `GET /videogames/id/users` //coleccion de users que han puntuado al videogame.
+
 
 ### HATEOAS
 
